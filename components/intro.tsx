@@ -10,7 +10,7 @@ import { FaGithubSquare } from "react-icons/fa";
 
 export default function Intro() {
     return (
-        <section className="mb-28 max-w-[50rem] text-center sm:mb-0 scroll-mt-[100rem]">
+        <section className="mb-25 max-w-[55rem] text-center sm:mb-0 scroll-mt-[100rem]">
             <div className="flex items-center justify-center">
                 <div className="relative">
                     <motion.div
@@ -49,7 +49,7 @@ export default function Intro() {
             </div>
 
             <motion.h1
-                className="mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl"
+                className="mb-10 mt-4 px-4 text-xl font-medium !leading-[1.5] sm:text-3xl"
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
@@ -74,32 +74,31 @@ export default function Intro() {
                     <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
                 </Link>
 
+                <a
+                    className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+                    href="/YifeiZengCV.pdf"
+                    download
+                >
+                    Download CV{" "}
+                    <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+                </a>
 
-            <a
-                className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-                href="/YifeiZengCV.pdf"
-                download
-            >
-                Download CV{" "}
-                <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
-            </a>
+                <a
+                    className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                    href="https://www.linkedin.com/in/yifei-zeng/"
+                    target="_blank"
+                >
+                    <BsLinkedin />
+                </a>
 
-            <a
-                className="bg-white p-4 text-gray-700 hover:text-gray-950 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-                href="https://www.linkedin.com/in/yifei-zeng/"
-                target="_blank"
-            >
-                <BsLinkedin />
-            </a>
-
-            <a
-                className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
-                href="https://github.com/zengyifei327"
-                target="_blank"
-            >
-                <FaGithubSquare />
-            </a>
-        </motion.div>
+                <a
+                    className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                    href="https://github.com/zengyifei327"
+                    target="_blank"
+                >
+                    <FaGithubSquare />
+                </a>
+            </motion.div>
         </section >
     );
 }
