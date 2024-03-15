@@ -96,8 +96,8 @@ export const projectsData = [
     {
         title: "Epic Adventure | Personal",
         description:
-            "A Python text-based command line game with a GUI for displaying the map. I designed game logic and created unit tests.",
-        tags: ["Python", "Testing", "Tkinter", "GUI"],
+            "A fully tested Python text-based command line game with a graphical user interface (GUI) for displaying the map.",
+        tags: ["Python", "Unit Test", "Tkinter", "GUI"],
         imageUrl: gameImg,
         projectUrl: "https://github.com/zengyifei327/Epic-Adventure-Game",
     },
