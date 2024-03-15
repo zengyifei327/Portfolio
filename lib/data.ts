@@ -86,32 +86,36 @@ export const experiencesData = [
 
 export const projectsData = [
     {
-        title: "Don't Froget-Record Your Life",
+        title: "Don't Froget | 2-day Hackathon",
         description:
-            "During a 2-day hackathon, I worked as a frontend developer on a project where users can record habits and track their mood.",
+            "A website where users can record habits and track their mood. I worked as a frontend developer.",
         tags: ["React", "Typescript", "Javascript", "Tailwind", "Spring (Java + Rest API)", "MySQL"],
         imageUrl: frogImg,
+        projectUrl: "https://devpost.com/software/don-t-froget",
     },
     {
-        title: "Epic Adventure",
+        title: "Epic Adventure | Personal",
         description:
-            "I developed a Python text-based command line game and created unit tests. Additionally, I implemented a GUI for displaying the map.",
+            "A Python text-based command line game with a GUI for displaying the map. I designed game logic and created unit tests.",
         tags: ["Python", "Testing", "Tkinter", "GUI"],
         imageUrl: gameImg,
+        projectUrl: "https://github.com/zengyifei327/Epic-Adventure-Game",
     },
     {
-        title: "Suscipe",
+        title: "Suscipe | 24h Hackathon",
         description:
-            "During a 24-hour hackathon, I led a team of 4 individuals in building a mobile-first recipe generator website. My role primarily focused on backend development.",
-        tags: ["Javascript", "CSS", "Web API", "JSON"],
+            "A mobile-first recipe generator website. My role primarily focused on backend development.",
+        tags: ["Javascript", "CSS", "Web API", "JSON", "Figma"],
         imageUrl: susImg,
+        projectUrl: "https://sustainablerecipes-50334.web.app/",
     },
     {
-        title: "Cheapest Eggs",
+        title: "Cheapest Eggs | Academic",
         description:
-            "In a team of 4, I built a mobile-first grocery price search and sharing website, using Agile Scrum and Git for version control. I developed a responsive frontend with HTML, CSS, JavaScript, Bootstrap, and jQuery, and handled the backend using Firebase for optimized functionality.",
+            "Developed a mobile-first grocery price search and sharing website as a full-stack developer.",
         tags: ["Javascript", "CSS", "Bootstrap", "jQuery", "Firebase", "Agile", "Figma", "Trello"],
         imageUrl: eggImg,
+        projectUrl: "https://dtc08-699f5.web.app/index.html",
     },
 ] as const;
 
