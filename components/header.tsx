@@ -3,7 +3,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { links } from "@/lib/data";
-
+import Link from "next/link";
 
 export default function Header() {
     return (
@@ -22,8 +22,8 @@ export default function Header() {
                             key={link.hash}
                             initial={{ y: -100, opacity: 0 }}
                             animate={{ y: 0, opacity: 1 }}
-                            
                         >
+                            <Link href={link.hash}>{link.name}</Link>
                         </motion.li>
                     ))}
                 </ul>
