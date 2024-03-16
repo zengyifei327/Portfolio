@@ -1,6 +1,5 @@
 # Yifei Zeng's Portfolio
 
----
 ![Thumbnail](./public/thumbnail.png)
 ## About
 
