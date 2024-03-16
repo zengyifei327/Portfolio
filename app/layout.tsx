@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google'
 import ActiveSectionContextProvider from "@/context/active-section-context";
 import ThemeContextProvider from "@/context/theme-context";
 import { Toaster } from "react-hot-toast";
+import ThemeSwitch from "@/components/theme-switch";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -31,6 +32,7 @@ export default function RootLayout({
             <Header />
             {children}
             <Footer />
+            <ThemeSwitch />
             <Toaster containerClassName="fixed inset-0 flex items-center justify-center z-50" />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
