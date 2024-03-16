@@ -1,4 +1,5 @@
 import Header from '@/components/header'
+import Footer from '@/components/footer';
 import './globals.css'
 import { Inter } from 'next/font/google'
 import ActiveSectionContextProvider from "@/context/active-section-context";
@@ -29,6 +30,7 @@ export default function RootLayout({
           <ActiveSectionContextProvider>
             <Header />
             {children}
+            <Footer />
             <Toaster containerClassName="fixed inset-0 flex items-center justify-center z-50" />
           </ActiveSectionContextProvider>
         </ThemeContextProvider>
