@@ -35,10 +35,10 @@ export const links = [
 
 export const experiencesData = [
     {
-        title: "Computer Systems Technology, Diploma | CGPA: 95%",
-        location: "British Columbia Institute of Technology, Vancouver, BC",
+        title: "CST, Diploma | CGPA: 95%",
+        location: "BCIT, Vancouver, BC",
         description:
-            "Term 2 CST student at BCIT, Looking for a Co-op opportunity\nAcquired proficiency in frontend development technologies such as HTML, CSS, and JavaScript.\nDeveloped skills in server- side programming languages like Python and Java for backend development and application scripting.\nGained knowledge in SQL for database management and querying.\n",
+            "Proficient in frontend (HTML, CSS, JavaScript), backend (Python, Java), and SQL.",
         icon: React.createElement(LuGraduationCap),
         date: "Sep 2023 – Dec 2025 (est.)",
     },
@@ -46,7 +46,7 @@ export const experiencesData = [
         title: "Regional Operations Manager",
         location: "Xunjing Technology Ltd, Cairo, Egypt",
         description:
-            "Analyzed user data using Excel, leading to strategic modifications in platform policies\nSupervised a team of 4 to troubleshoot technical issues reported by platform users, ensuring exceptional customer service",
+            "Analyzed user data, supervised team for technical support.",
         icon: React.createElement(CgWorkAlt),
         date: "Jul - Nov 2022",
     },
@@ -54,7 +54,7 @@ export const experiencesData = [
         title: "Regional Operations Manager",
         location: "Tomorrow Wormhole Technology Ltd, Beijing, China",
         description:
-            "Collaborated with cross-functional teams to organize events and self-learned SQL to extract data, empowering data-driven analysis and informed decision-making for future events\nDocumented weekly reports to extract insights, improving operational efficiencies",
+            "Organized events, performed data analysis, documented reports.",
         icon: React.createElement(CgWorkAlt),
         date: "Aug 2021 - Jun 2022",
     },
@@ -62,15 +62,15 @@ export const experiencesData = [
         title: "Content Operation",
         location: "ByteDance Ltd, Beijing, China",
         description:
-            "Contributed ideas and insights to brainstorming sessions and content planning meetings, fostering collaboration and innovation within team\nUploaded, formatted, and published content on platforms, tracked post performance, monitored data to understand user preferences and engagement patterns",
+            "Contributed ideas, uploaded and analyzed content.",
         icon: React.createElement(CgWorkAlt),
         date: "Nov 2020 - Feb 2021",
     },
     {
         title: "Digital Humanities, Master of Science | With Merit",
-        location: "University College London(QS Top 10 World-Ranked University), London, UK",
+        location: "University College London, London, UK",
         description:
-            "Acquired proficiency in using digital tools like text analysis software and data visualization tools\nGained knowledge in XML, PHP, JavaScript, HTML, and CSS for data manipulation, web development, and frontend design\n",
+            "Proficient in digital tools, web development (XML, PHP, JavaScript, HTML, CSS).",
         icon: React.createElement(LuGraduationCap),
         date: "Sep 2019 - Dec 2020",
     },
@@ -78,10 +78,11 @@ export const experiencesData = [
         title: "Ethnology, Bachelor of Arts | GPA: 3.85",
         location: "Minzu University of China, Beijing, China",
         description:
-            "Enhanced cross-cultural communication skills\nDeveloped critical thinking and analysis skills",
+            "Enhanced cross-cultural communication, critical thinking skills.",
         icon: React.createElement(LuGraduationCap),
         date: "Sep 2014 - Jun 2018",
     },
+
 ] as const;
 
 export const projectsData = [
