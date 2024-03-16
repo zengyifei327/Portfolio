@@ -123,6 +123,7 @@ export const projectsData = [
 export const skillsData = [
     "Python",
     "JavaScript",
+    "TypeScript",
     "Java",
     "React",
     "Tailwind CSS",
@@ -130,6 +131,7 @@ export const skillsData = [
     "Next.js",
     "Node.js",
     "Express.js",
+    "Web API",
     "MongoDB",
     "JSON",
     "Firebase",
