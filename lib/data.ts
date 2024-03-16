@@ -68,7 +68,7 @@ export const experiencesData = [
     },
     {
         title: "Digital Humanities, Master of Science | With Merit",
-        location: "University College London, London, UK",
+        location: "University College London (QS Top 10 World-Ranked University), London, UK",
         description:
             "Proficient in digital tools, web development (XML, PHP, JavaScript, HTML, CSS).",
         icon: React.createElement(LuGraduationCap),
