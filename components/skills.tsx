@@ -43,7 +43,7 @@ export default function Skills() {
                         custom={categoryIndex}
                         className="glass rounded-2xl p-6 border border-primary-200/50 dark:border-primary-800/50 shadow-xl hover:shadow-2xl hover:shadow-primary-500/10 transition-all duration-300"
                     >
-                        <h3 className="text-xl font-semibold mb-4 bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent dark:from-primary-400 dark:to-accent-400">
+                        <h3 className="text-xl font-semibold mb-4 gradient-text-vibrant">
                             {category.category}
                         </h3>
                         <div className="flex flex-wrap gap-3">
@@ -55,7 +55,7 @@ export default function Skills() {
                                     whileTap={{ scale: 0.95 }}
                                 >
                                     <div className="bg-white/50 dark:bg-white/10 rounded-lg px-4 py-2 border border-primary-200/50 dark:border-primary-800/50 cursor-pointer transition-all duration-300 hover:border-primary-400 dark:hover:border-primary-600 hover:shadow-md hover:shadow-primary-500/20 group-hover:bg-gradient-to-r group-hover:from-primary-500/10 group-hover:to-accent-500/10">
-                                        <span className="bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent font-medium dark:from-primary-400 dark:to-accent-400 text-sm sm:text-base">
+                                        <span className="gradient-text-primary font-medium text-sm sm:text-base">
                                             {skill}
                                         </span>
                                     </div>

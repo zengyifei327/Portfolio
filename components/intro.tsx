@@ -61,8 +61,8 @@ export default function Intro() {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
-                Hello, I'm <span className="italic bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent font-semibold">Yifei,</span> a passionate Computer Systems Technology student at BCIT, graduating in December 2025. With a strong background in{" "}
-                <span className="font-bold bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent">software development, automation, and system optimization,</span> I'm now seeking a <span className="underline decoration-primary-500 decoration-2 underline-offset-4">full-time position</span> where I can apply my technical skills, contribute to real-world projects, and continue growing as a developer.
+                Hello, I'm <span className="italic gradient-text-vibrant font-semibold">Yifei,</span> a passionate Computer Systems Technology student at BCIT, graduating in December 2025. With a strong background in{" "}
+                <span className="font-bold gradient-text-vibrant">software development, automation, and system optimization,</span> I'm now seeking a <span className="gradient-text-primary underline decoration-primary-500 decoration-2 underline-offset-4 font-semibold">full-time position</span> where I can apply my technical skills, contribute to real-world projects, and continue growing as a developer.
 
             </motion.h1>
 

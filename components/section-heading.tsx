@@ -15,7 +15,7 @@ export default function SectionHeading({ children }: SectionHeadingProps) {
                 height="32" 
                 className="h-8 w-8"
             />
-            <span className="bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent dark:from-primary-400 dark:to-accent-400">
+            <span className="gradient-text-vibrant dark:gradient-text-vibrant">
                 {children}
             </span>
         </h2>
