@@ -129,22 +129,28 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-    "Python",
-    "JavaScript",
-    "TypeScript",
-    "Java",
-    "React",
-    "Tailwind CSS",
-    "jQuery",
-    "Next.js",
-    "Node.js",
-    "Express.js",
-    "Web API",
-    "MongoDB",
-    "JSON",
-    "Firebase",
-    "SQL",
-    "RDBMS",
-    "Testing",
-    "Agile / Scrum",
+    {
+        category: "Programming & Backend",
+        skills: ["Python", "JavaScript", "TypeScript", "Java", "Node.js", "Express.js", "REST / Web APIs", "JSON"],
+    },
+    {
+        category: "Frontend & Frameworks",
+        skills: ["React", "Next.js", "Tailwind CSS", "jQuery", "HTML", "CSS"],
+    },
+    {
+        category: "Database",
+        skills: ["SQL", "RDBMS (MySQL / PostgreSQL)", "MongoDB", "Firebase"],
+    },
+    {
+        category: "Cloud Computing",
+        skills: ["AWS (EC2, S3, Lambda)", "Serverless Architecture", "Cloud Deployment", "CI/CD"],
+    },
+    {
+        category: "Automation & Microsoft 365",
+        skills: ["Power Apps", "Power Automate", "SharePoint Integration"],
+    },
+    {
+        category: "Development Practices",
+        skills: ["Testing", "Agile / Scrum", "Version Control (Git / GitHub)", "Documentation"],
+    },
 ] as const;

@@ -15,9 +15,9 @@ export default function Intro() {
     const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
 
     return (
-        <section 
+        <section
             ref={ref}
-            id="home" 
+            id="home"
             className="mb-28 max-w-[55rem] text-center sm:mb-0 scroll-mt-[100rem]">
             <div className="flex items-center justify-center">
                 <div className="relative">
@@ -61,8 +61,8 @@ export default function Intro() {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
-                Hello, I'm <span className="italic">Yifei,</span> a passionate Computer Systems Technology student at BCIT, graduating in December 2025. With a strong background in{" "}
-                <span className="font-bold">software development, automation, and system optimization,</span> I'm now seeking a <span className="underline">full-time position</span> where I can apply my technical skills, contribute to real-world projects, and continue growing as a developer.
+                Hello, I'm <span className="italic bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent font-semibold">Yifei,</span> a passionate Computer Systems Technology student at BCIT, graduating in December 2025. With a strong background in{" "}
+                <span className="font-bold bg-gradient-to-r from-primary-600 to-accent-600 bg-clip-text text-transparent">software development, automation, and system optimization,</span> I'm now seeking a <span className="underline decoration-primary-500 decoration-2 underline-offset-4">full-time position</span> where I can apply my technical skills, contribute to real-world projects, and continue growing as a developer.
 
             </motion.h1>
 
@@ -76,27 +76,27 @@ export default function Intro() {
             >
                 <Link
                     href="#contact"
-                    className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+                    className="group bg-gradient-to-r from-primary-600 to-accent-600 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:shadow-lg hover:shadow-primary-500/50 active:scale-105 transition-all duration-300 font-medium"
                     onClick={() => {
                         setActiveSection("Contact");
                         setTimeOfLastClick(Date.now());
                     }}
                 >
                     Contact me here {" "}
-                    <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
+                    <BsArrowRight className="opacity-90 group-hover:translate-x-1 transition-transform" />
                 </Link>
 
                 <a
-                    className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+                    className="group glass px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition-all duration-300 cursor-pointer border border-primary-200/50 dark:border-primary-800/50 hover:border-primary-400 dark:hover:border-primary-600 hover:shadow-lg hover:shadow-primary-500/20 font-medium"
                     href="/YifeiZengCV.pdf"
                     download
                 >
                     Download CV{" "}
-                    <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
+                    <HiDownload className="opacity-70 group-hover:translate-y-1 transition-transform" />
                 </a>
 
                 <a
-                    className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                    className="glass p-4 text-primary-600 dark:text-primary-400 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-primary-700 dark:hover:text-primary-300 active:scale-105 transition-all duration-300 cursor-pointer border border-primary-200/50 dark:border-primary-800/50 hover:border-primary-400 dark:hover:border-primary-600 hover:shadow-lg hover:shadow-primary-500/20"
                     href="https://www.linkedin.com/in/yifei-zeng/"
                     target="_blank"
                 >
@@ -104,7 +104,7 @@ export default function Intro() {
                 </a>
 
                 <a
-                    className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+                    className="glass p-4 text-primary-600 dark:text-primary-400 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-primary-700 dark:hover:text-primary-300 active:scale-105 transition-all duration-300 cursor-pointer border border-primary-200/50 dark:border-primary-800/50 hover:border-primary-400 dark:hover:border-primary-600 hover:shadow-lg hover:shadow-primary-500/20"
                     href="https://github.com/zengyifei327"
                     target="_blank"
                 >
