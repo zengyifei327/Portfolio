@@ -61,8 +61,8 @@ export default function Intro() {
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
             >
-                Hello, I'm <span className="italic">Yifei,</span> a passionate Computer System Technology student at BCIT. With a keen interest in{" "}
-                <span className="font-bold">software development,</span> I'm actively seeking a <span className="underline">Co-op opportunity</span> to apply and expand my coding skills in a real-world setting.
+                Hello, I'm <span className="italic">Yifei,</span> a passionate Computer Systems Technology student at BCIT, graduating in December 2025. With a strong background in{" "}
+                <span className="font-bold">software development, automation, and system optimization,</span> I'm now seeking a <span className="underline">full-time position</span> where I can apply my technical skills, contribute to real-world projects, and continue growing as a developer.
 
             </motion.h1>
 
