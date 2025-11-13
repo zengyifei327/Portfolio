@@ -40,7 +40,15 @@ export const experiencesData = [
         description:
             "Proficient in frontend (HTML, CSS, JavaScript), backend (Python, Java), and SQL.",
         icon: React.createElement(LuGraduationCap),
-        date: "Sep 2023 – Dec 2025 (est.)",
+        date: "Sep 2023 – Dec 2025",
+    },
+    {
+        title: "Inventory Digitization Student Assistant",
+        location: "TRIUMF, Vancouver, Canada",
+        description:
+            "Transferred a paper-based inventory process into a new digital system using Power Apps, SharePoint, and Power Automate to streamline IT workflows; integrated Python scripts and APIs to automate data synchronization and improve process reliability.",
+        icon: React.createElement(CgWorkAlt),
+        date: "May – Dec 2024",
     },
     {
         title: "Regional Operations Manager",
